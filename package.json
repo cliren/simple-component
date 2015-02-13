@@ -1,0 +1,32 @@
+{
+  "name": "simple-component",
+  "version": "1.0.0",
+  "description": "Simple Web Component",
+  "authors": [
+    "https://github.com/cliren"
+  ],
+  "main": "main.js",
+  "scripts": {
+    "start": "npm install && bower install && gulp"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^1.7.2",
+    "gulp": "^3.8.10",
+    "gulp-less": "^1.3.6",
+    "gulp-notify": "^2.0.1",
+    "gulp-sourcemaps": "^1.2.8",
+    "gulp-util": "^3.0.1",
+    "pretty-hrtime": "^0.2.2",
+    "require-dir": "^0.1.0",
+    "watchify": "^2.1.1",
+    "webpack": "^1.4.15",
+    "http-proxy": "^1.8.1",
+    "style-loader": "^0.8.2",
+    "script-loader": "^0.6.0",
+    "exports-loader": "^0.6.2",
+    "css-loader": "^0.9.1",
+    "file-loader": "^0.8.1",
+    "url-loader": "^0.5.5"
+  }
+}

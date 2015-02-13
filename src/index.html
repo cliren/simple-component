@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Simple Component</title>
+
+    <script src="main.js"></script>
+
+</head>
+<body>
+<h1>Component Test Page:</h1>
+<div class="container-fluid">
+    <div class="btn-group">
+        <button type="button" class="btn btn-default">Action</button>
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">
+                <simple-component id="myComponent"></simple-component>
+            </a></li>
+            <li class="divider"></li>
+            <li><a href="#">Another link</a></li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
