@@ -1,9 +1,11 @@
 require("bootstrap/dist/css/bootstrap.css");
 require('bootstrap');
 require('jquery');
+$.noConflict();
+
 var MyComponent = require('./my-component');
 
-$(function() {
+document.addEventListener('DOMContentLoaded', function () {
 
   var myComponent = new MyComponent();
 
