@@ -33,12 +33,14 @@ module.exports = {
       bowerComponentsPath],
     alias: {
       "jquery$": "jquery/dist/jquery.js",
-      'skate': 'skatejs/dist/skate.js'
+      'skate': 'skatejs/dist/skate.js',
+      'domready': 'domready/ready.js'
     },
     extensions: ['',
       '.js',
       '.css']
   },
+  provide: { $: "jquery/dist/jquery.js" },
   plugins: [
     new webpack.optimize.DedupePlugin()
   ]
